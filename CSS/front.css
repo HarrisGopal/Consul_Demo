@@ -1,0 +1,32 @@
+body{
+    background-image:url('images/medical2.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top 10rem;
+    overflow: hidden;
+    }
+#head{
+    position: relative;
+    top: 15rem;
+    margin-left: 21rem;
+    
+}
+#head h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 3rem;
+    color: rgb(115, 218, 110);
+}
+#head h1:hover{
+    color: rgb(238, 56, 129);
+    font-size: 50px;
+}
+#head a{
+    position: relative;
+    top: 3rem;
+    margin-left: 15rem;
+    text-decoration: none;
+    font-size: 25px;
+    background-color: lightpink;
+    border-style: none;
+}

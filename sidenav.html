@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="sidenav.css">
+  <script type="text/javascript">
+    var pid = "none";
+    function showhide(id) {
+      var elements = document.getElementById(id).childNodes;
+      var menu = elements[3];
+      var arrow = ((elements[1].childNodes)[4].childNodes)[1];
+      if(menu.style.display == 'block') {
+        menu.style.display = "none";
+        arrow.style.transform = "rotate(0deg)";
+        elements[1].style.color = "#eeeeee";
+      }
+      else {
+        menu.style.display = "block";
+        arrow.style.transform = "rotate(270deg)";
+        elements[1].style.color = "#ff5252";
+      }
+      // if(pid == id)
+      //   pid = "none";
+      // if(pid != "none") {
+      //   elements = document.getElementById(pid).childNodes;
+      //   menu = (document.getElementById(pid).childNodes)[3];
+      //   arrow = ((elements[1].childNodes)[4].childNodes)[1];
+      //   if(menu.style.display == 'block') {
+      //     menu.style.display = "none";
+      //     arrow.style.transform = "rotate(0deg)";
+      //     elements[1].style.color = "#eeeeee";
+      //   }
+      // }
+      pid = id;
+    }
+  
+    function showOptions() {
+      var flag = document.getElementById('options');
+      if(flag.style.display == 'block') {
+        flag.style.display = "none";
+        document.getElementById('mark').style.display = "none";
+      }
+      else {
+        flag.style.display = "block";
+        document.getElementById('mark').style.display = "block";
+      }
+    } 
+
+    function openNav() {
+  document.getElementById("mySidebar").style.width = "200px";
+  document.getElementById("main").style.marginLeft = "250px";
+}
+
+function closeNav() {
+  document.getElementById("mySidebar").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+}
+  </script>
+</head>
+<body>
+  <div id="mySidebar" class="sidebar">
+    <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">×</a>
+        <div class="main-menu-item">
+          <a href="dashboard.php"><i class="fa fa-dashboard"></i><span>Dashboard</span></a>
+        </div>
+        <div id="third" class="main-menu-item" onclick="showhide(this.id);">
+          <a href="#">
+          <span>Medicine</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" >
+            <li class="treeview"><a href="add_medicine.php">Add Medicine</a></li>
+            <li class="treeview"><a href="manage_medicine.php">Manage Medicine</a></li>
+            <li class="treeview"><a href="manage_stock.php">Manage Stock</a></li>
+         </ul>
+        </div>
+        <div id="fourth" class="main-menu-item" onclick="showhide(this.id);">
+          <a href="#">
+            <i class="fa fa-group"></i><span>Supplier</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" style="display: none;">
+            <li class="treeview"><a href="add_supplier.php">Add Supplier</a></li>
+            <li class="treeview"><a href="manage_supplier.php">Manage Supplier</a></li>
+          </ul>
+        </div>
+        <div id="five" class="main-menu-item" onclick="showhide(this.id);">
+          <a href="#">
+            <i class="fa fa-group"></i><span>Customers</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" style="display: none;">
+            <li class="treeview"><a href="add_customer.php">Add Customer</a></li>
+            <li class="treeview"><a href="manage_customer.php">Manage Customer</a></li>
+          </ul>
+        </div>
+        <div id="six" class="main-menu-item" onclick="showhide(this.id);">
+          <a href="#">
+            <i class="fa fa-group"></i><span>Invoice</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" style="display: none;">
+            <li class="treeview"><a href="add_new_invoice.php">Add New Invoice</a></li>
+            <li class="treeview"><a href="manageinvoice.php">Manage Invoice</a></li>
+          </ul>
+        </div>
+        <div id="seven" class="main-menu-item" onclick="showhide(this.id);">
+          <a href="#">
+            <i class="fa fa-group"></i><span>Report</span>
+            <span class="pull-right-container">
+              <i class="fa fa-angle-left pull-right"></i>
+            </span>
+          </a>
+          <ul class="treeview-menu" style="display: none;">
+            <li class="treeview"><a href=".php">Sales report</a></li>
+            <!-- <li class="treeview"><a href="manageinvoice.php">Manage Invoice</a></li> -->
+          </ul>
+        </div>
+  </div>
+  <div>
+    <i class="fa fa-bars"onclick="openNav()" id="menu"></i>  
+   
+  </div>
+</body>
+</html>
+

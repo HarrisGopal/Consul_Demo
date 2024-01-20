@@ -1,0 +1,24 @@
+h6{
+    margin-top: 5rem;
+    margin-left: 26rem;
+    font-size: 30px;
+}
+body{
+    background-color:darkgray;
+}
+form{
+    width: 450px;
+    margin-top: 5rem;
+    margin-left: 20rem;
+}
+input{
+    margin-bottom: 1rem;
+}
+a{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}
+button{
+    margin-top: 2rem;
+    margin-left: 5rem;
+}

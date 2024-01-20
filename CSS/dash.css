@@ -1,0 +1,232 @@
+body {
+    background-image: url("images/dash1.jpg");
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+#dashbt1 {
+
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 5rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt1 span {
+    position: relative;
+    top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(11, 72, 33);
+
+}
+
+#dashbt1 h1 {
+    position: relative;
+    top: -2rem;
+    color: rgb(16, 84, 14);
+    font-size: 19px;
+}
+
+#dashbt1:hover {
+    background-color: lightseagreen;
+}
+
+#dashbt2 {
+
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 5rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt2 span {
+    position: relative;
+    top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(11, 72, 33);
+
+}
+
+#dashbt2 h1 {
+    position: relative;
+    top: -2rem;
+    color: rgb(16, 84, 14);
+    font-size: 19px;
+}
+
+#dashbt2:hover {
+    background-color: lightseagreen;
+}
+
+#dashbt3 {
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 2rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt3 span {
+    position: relative;
+    top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 15px;
+    color: rgb(196, 23, 23);
+
+}
+
+#dashbt3 h1 {
+    position: relative;
+    top: -2rem;
+    color: red;
+    font-size: 19px;
+}
+
+#dashbt3:hover {
+    background-color: lightseagreen;
+}
+
+#dashbt4 {
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 5rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt4 span {
+    position: relative;
+    top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(11, 72, 33);
+
+}
+
+#dashbt4 h1 {
+    position: relative;
+    top: -2rem;
+    color: rgb(16, 84, 14);
+    font-size: 19px;
+}
+
+#dashbt4:hover {
+    background-color: lightseagreen;
+}
+
+#dashbt7 {
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 5rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt7 span {
+    position: relative;
+    top: -2rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(11, 72, 33);
+
+}
+
+#dashbt7 h1 {
+    position: relative;
+    top: -2rem;
+    color: rgb(16, 84, 14);
+    font-size: 19px;
+}
+
+#dashbt7:hover {
+    background-color: lightseagreen;
+}
+
+#dashbt9 {
+    position: relative;
+    top: 1rem;
+    width: 130px;
+    height: 110px;
+    margin-left: 3rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+    border-style: none;
+}
+
+#dashbt9 span {
+    position: relative;
+    top: -1.5rem;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 17px;
+    color: rgb(11, 72, 33);
+
+}
+
+#dashbt9 h1 {
+    position: relative;
+    top: -2rem;
+    color: rgb(16, 84, 14);
+    font-size: 19px;
+}
+
+#dashbt9:hover {
+    background-color: lightseagreen;
+}
+
+#dash1 {
+    position: relative;
+    top: 17rem;
+    width: 150px;
+    height: 130px;
+    margin-left: -24rem;
+    padding: 55px 0px 10px 0px;
+    font-size: 1rem;
+    background-color: darkseagreen;
+
+
+}
+
+#dash1:hover {
+    background-color: lightseagreen;
+}
+
+#dash1 span {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    position: relative;
+    top: -1.6rem;
+}
+
+#img1 {
+    margin-bottom: 1rem;
+    position: relative;
+    top: -2rem;
+
+}

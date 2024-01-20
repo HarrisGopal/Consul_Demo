@@ -1,0 +1,39 @@
+form{
+    width: 300px;
+    position: relative;
+    top: 4rem;
+    margin-left: 28rem;
+    
+
+}
+input{
+    margin-bottom: 2rem;
+    height: 3rem;
+   
+
+}
+input ::placeholder{
+    font-size:20px;
+}
+h2{
+  font-size: 2rem;
+  text-align: center;
+  margin-top: 1rem;
+  margin-left: -5rem;
+}
+body{
+    background-color:darkgray;
+}
+label{
+    font-size: 1rem;
+}
+#save{
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+}
+#submit-btn{
+    width: 80px;
+    height: 35px;
+    font-size: 20px;
+}
